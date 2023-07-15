@@ -5,13 +5,17 @@ metadata:
   labels:
     app: techtrends
     tag: latest
-  namespace: sandbox
+  namespace: {{ .Values.namespace.name }}
 spec:
   selector:
     app: techtrends
     tag: latest
   ports:
-  - port: 4111
-    protocol: TCP
-    targetPort: 3111
-  type: ClusterIP
+  - port: {{ .Values.service.port }}
+    protocol: {{ .Values.service.protocol }}
+    {{ if .Values.service.targetPort}}
+    targetPort: {{ .Values.service.targetPort }}
+    {{ else }}
+    targetPort: {{ .Values.service.port }}
+    {{ end }}
+  type: {{ .Values.service.type }}

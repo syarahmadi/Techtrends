@@ -2,12 +2,12 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: techtrends
-  namespace: sandbox
+  namespace: {{ .Values.namespace.name }}
   labels:
     app: techtrends
     tag: latest
 spec:
-  replicas: 1
+  replicas: {{ .Values.replicaCount }}
   selector:
     matchLabels:
       app: techtrends
@@ -20,22 +20,17 @@ spec:
     spec:
       containers:
       - name: techtrends
-        image: syarahmadi/tech-trends:latest
-        imagePullPolicy: IfNotPresent
-        resources:
-          limits:
-            memory: "128Mi"
-            cpu: "500m"
-          requests:
-            memory: "64Mi"
-            cpu: "250m"
+        image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
+        imagePullPolicy: {{ .Values.image.pullPolicy }}
         livenessProbe:
           httpGet:
-            port: 3111
-            path: /healthz
+            port: {{ .Values.readinessProbe.port }}
+            path: {{ .Values.livenessProbe.path }}
         readinessProbe:
           httpGet:
-            port: 3111
-            path: /healthz
+            port: {{ .Values.readinessProbe.port }}
+            path: {{ .Values.readinessProbe.path }}
         ports:
-        - containerPort: 3111
+        - containerPort: {{ .Values.containerPort }}
+        resources:
+{{ toYaml .Values.resources | indent 12 }}
