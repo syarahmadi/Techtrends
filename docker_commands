@@ -8,7 +8,7 @@ docker run -d  -p 7111:3111 tech
 
 ## Docker commands used to get the application logs
 # TODO: insert the docker logs command
-docker logs techtrends
+docker logs tech
 
 ## Logs from the container running the TechTrends application
 # TODO: paste logs from the Docker container
@@ -24,3 +24,9 @@ docker logs techtrends
 2023-07-10 21:19:24 172.17.0.1 - - [11/Jul/2023 01:19:24] "GET / HTTP/1.1" 200 -
 2023-07-10 21:19:24 172.17.0.1 - - [11/Jul/2023 01:19:24] "GET /static/css/main.css HTTP/1.1" 200 -
 2023-07-10 21:19:24 172.17.0.1 - - [11/Jul/2023 01:19:24] "GET /favicon.ico HTTP/1.1" 404 -
+2023-07-10 21:19:24 172.17.0.1 - - [11/Jul/2023 01:19:24] "POST /create HTTP/1.1" 302 -
+2023-07-10 21:19:24 172.17.0.1 - - [11/Jul/2023 01:19:24] "POST /create HTTP/1.1" 302 -
+2023-07-10 21:19:24 172.17.0.1 - - [11/Jul/2023 01:19:24] "GET / HTTP/1.1" 200 -
+2023-07-10 21:19:24 172.17.0.1 - - [11/Jul/2023 01:19:24] "GET /about HTTP/1.1" 200 -
+2023-07-10 21:19:24 172.17.0.1 - - [11/Jul/2023 01:19:24] "GET /healthz HTTP/1.1" 200 -
+2023-07-10 21:19:24 172.17.0.1 - - [11/Jul/2023 01:19:24] "GET /metrics HTTP/1.1" 200 -
