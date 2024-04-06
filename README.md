@@ -5,7 +5,7 @@
     <h1 align="center">TECHTRENDS</h1>
 </p>
 <p align="center">
-    <em><code>► INSERT-TEXT-HERE</code></em>
+    <em><code>► A pet project to find and showcase techtrends ...</code></em>
 </p>
 <p align="center">
 	<img src="https://img.shields.io/github/license/syarahmadi/Techtrends?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
@@ -38,13 +38,13 @@
 
 ##  Overview
 
-<code>► INSERT-TEXT-HERE</code>
+<code>► To be completed ...</code>
 
 ---
 
 ##  Features
 
-<code>► INSERT-TEXT-HERE</code>
+<code>► To be completed ...</code>
 
 ---
 
@@ -108,9 +108,9 @@
 
 | File                                                                                    | Summary                         |
 | ---                                                                                     | ---                             |
-| [Dockerfile](https://github.com/syarahmadi/Techtrends/blob/master/Dockerfile)           | <code>► INSERT-TEXT-HERE</code> |
-| [docker_commands](https://github.com/syarahmadi/Techtrends/blob/master/docker_commands) | <code>► INSERT-TEXT-HERE</code> |
-| [Vagrantfile](https://github.com/syarahmadi/Techtrends/blob/master/Vagrantfile)         | <code>► INSERT-TEXT-HERE</code> |
+| [Dockerfile](https://github.com/syarahmadi/Techtrends/blob/master/Dockerfile)           | <code>► To be completed ...</code> |
+| [docker_commands](https://github.com/syarahmadi/Techtrends/blob/master/docker_commands) | <code>► To be completed ...</code> |
+| [Vagrantfile](https://github.com/syarahmadi/Techtrends/blob/master/Vagrantfile)         | <code>► To be completed ...</code> |
 
 </details>
 
@@ -118,9 +118,9 @@
 
 | File                                                                                                                     | Summary                         |
 | ---                                                                                                                      | ---                             |
-| [argocd-server-nodeport.yaml](https://github.com/syarahmadi/Techtrends/blob/master/argocd/argocd-server-nodeport.yaml)   | <code>► INSERT-TEXT-HERE</code> |
-| [helm-techtrends-prod.yaml](https://github.com/syarahmadi/Techtrends/blob/master/argocd/helm-techtrends-prod.yaml)       | <code>► INSERT-TEXT-HERE</code> |
-| [helm-techtrends-staging.yaml](https://github.com/syarahmadi/Techtrends/blob/master/argocd/helm-techtrends-staging.yaml) | <code>► INSERT-TEXT-HERE</code> |
+| [argocd-server-nodeport.yaml](https://github.com/syarahmadi/Techtrends/blob/master/argocd/argocd-server-nodeport.yaml)   | <code>► To be completed ...</code> |
+| [helm-techtrends-prod.yaml](https://github.com/syarahmadi/Techtrends/blob/master/argocd/helm-techtrends-prod.yaml)       | <code>► To be completed ...</code> |
+| [helm-techtrends-staging.yaml](https://github.com/syarahmadi/Techtrends/blob/master/argocd/helm-techtrends-staging.yaml) | <code>► To be completed ...</code> |
 
 </details>
 
@@ -128,9 +128,9 @@
 
 | File                                                                                             | Summary                         |
 | ---                                                                                              | ---                             |
-| [deploy.yaml](https://github.com/syarahmadi/Techtrends/blob/master/kubernetes/deploy.yaml)       | <code>► INSERT-TEXT-HERE</code> |
-| [service.yaml](https://github.com/syarahmadi/Techtrends/blob/master/kubernetes/service.yaml)     | <code>► INSERT-TEXT-HERE</code> |
-| [namespace.yaml](https://github.com/syarahmadi/Techtrends/blob/master/kubernetes/namespace.yaml) | <code>► INSERT-TEXT-HERE</code> |
+| [deploy.yaml](https://github.com/syarahmadi/Techtrends/blob/master/kubernetes/deploy.yaml)       | <code>► To be completed ...</code> |
+| [service.yaml](https://github.com/syarahmadi/Techtrends/blob/master/kubernetes/service.yaml)     | <code>► To be completed ...</code> |
+| [namespace.yaml](https://github.com/syarahmadi/Techtrends/blob/master/kubernetes/namespace.yaml) | <code>► To be completed ...</code> |
 
 </details>
 
@@ -138,10 +138,10 @@
 
 | File                                                                                                 | Summary                         |
 | ---                                                                                                  | ---                             |
-| [Chart.yaml](https://github.com/syarahmadi/Techtrends/blob/master/helm/Chart.yaml)                   | <code>► INSERT-TEXT-HERE</code> |
-| [values-staging.yaml](https://github.com/syarahmadi/Techtrends/blob/master/helm/values-staging.yaml) | <code>► INSERT-TEXT-HERE</code> |
-| [values.yaml](https://github.com/syarahmadi/Techtrends/blob/master/helm/values.yaml)                 | <code>► INSERT-TEXT-HERE</code> |
-| [values-prod.yaml](https://github.com/syarahmadi/Techtrends/blob/master/helm/values-prod.yaml)       | <code>► INSERT-TEXT-HERE</code> |
+| [Chart.yaml](https://github.com/syarahmadi/Techtrends/blob/master/helm/Chart.yaml)                   | <code>► To be completed ...</code> |
+| [values-staging.yaml](https://github.com/syarahmadi/Techtrends/blob/master/helm/values-staging.yaml) | <code>► To be completed ...</code> |
+| [values.yaml](https://github.com/syarahmadi/Techtrends/blob/master/helm/values.yaml)                 | <code>► To be completed ...</code> |
+| [values-prod.yaml](https://github.com/syarahmadi/Techtrends/blob/master/helm/values-prod.yaml)       | <code>► To be completed ...</code> |
 
 </details>
 
@@ -149,10 +149,10 @@
 
 | File                                                                                                 | Summary                         |
 | ---                                                                                                  | ---                             |
-| [requirements.txt](https://github.com/syarahmadi/Techtrends/blob/master/techtrends/requirements.txt) | <code>► INSERT-TEXT-HERE</code> |
-| [schema.sql](https://github.com/syarahmadi/Techtrends/blob/master/techtrends/schema.sql)             | <code>► INSERT-TEXT-HERE</code> |
-| [app.py](https://github.com/syarahmadi/Techtrends/blob/master/techtrends/app.py)                     | <code>► INSERT-TEXT-HERE</code> |
-| [init_db.py](https://github.com/syarahmadi/Techtrends/blob/master/techtrends/init_db.py)             | <code>► INSERT-TEXT-HERE</code> |
+| [requirements.txt](https://github.com/syarahmadi/Techtrends/blob/master/techtrends/requirements.txt) | <code>► To be completed ...</code> |
+| [schema.sql](https://github.com/syarahmadi/Techtrends/blob/master/techtrends/schema.sql)             | <code>► To be completed ...</code> |
+| [app.py](https://github.com/syarahmadi/Techtrends/blob/master/techtrends/app.py)                     | <code>► To be completed ...</code> |
+| [init_db.py](https://github.com/syarahmadi/Techtrends/blob/master/techtrends/init_db.py)             | <code>► To be completed ...</code> |
 
 </details>
 
@@ -160,7 +160,7 @@
 
 | File                                                                                                                        | Summary                         |
 | ---                                                                                                                         | ---                             |
-| [techtrends-dockerhub.yml](https://github.com/syarahmadi/Techtrends/blob/master/.github/workflows/techtrends-dockerhub.yml) | <code>► INSERT-TEXT-HERE</code> |
+| [techtrends-dockerhub.yml](https://github.com/syarahmadi/Techtrends/blob/master/.github/workflows/techtrends-dockerhub.yml) | <code>► To be completed ...</code> |
 
 </details>
 
@@ -168,9 +168,9 @@
 
 | File                                                                                                 | Summary                         |
 | ---                                                                                                  | ---                             |
-| [deploy.yaml](https://github.com/syarahmadi/Techtrends/blob/master/helm/templates/deploy.yaml)       | <code>► INSERT-TEXT-HERE</code> |
-| [service.yaml](https://github.com/syarahmadi/Techtrends/blob/master/helm/templates/service.yaml)     | <code>► INSERT-TEXT-HERE</code> |
-| [namespace.yaml](https://github.com/syarahmadi/Techtrends/blob/master/helm/templates/namespace.yaml) | <code>► INSERT-TEXT-HERE</code> |
+| [deploy.yaml](https://github.com/syarahmadi/Techtrends/blob/master/helm/templates/deploy.yaml)       | <code>► To be completed ...</code> |
+| [service.yaml](https://github.com/syarahmadi/Techtrends/blob/master/helm/templates/service.yaml)     | <code>► To be completed ...</code> |
+| [namespace.yaml](https://github.com/syarahmadi/Techtrends/blob/master/helm/templates/namespace.yaml) | <code>► To be completed ...</code> |
 
 </details>
 
@@ -178,12 +178,12 @@
 
 | File                                                                                                 | Summary                         |
 | ---                                                                                                  | ---                             |
-| [post.html](https://github.com/syarahmadi/Techtrends/blob/master/techtrends/templates/post.html)     | <code>► INSERT-TEXT-HERE</code> |
-| [index.html](https://github.com/syarahmadi/Techtrends/blob/master/techtrends/templates/index.html)   | <code>► INSERT-TEXT-HERE</code> |
-| [about.html](https://github.com/syarahmadi/Techtrends/blob/master/techtrends/templates/about.html)   | <code>► INSERT-TEXT-HERE</code> |
-| [base.html](https://github.com/syarahmadi/Techtrends/blob/master/techtrends/templates/base.html)     | <code>► INSERT-TEXT-HERE</code> |
-| [create.html](https://github.com/syarahmadi/Techtrends/blob/master/techtrends/templates/create.html) | <code>► INSERT-TEXT-HERE</code> |
-| [404.html](https://github.com/syarahmadi/Techtrends/blob/master/techtrends/templates/404.html)       | <code>► INSERT-TEXT-HERE</code> |
+| [post.html](https://github.com/syarahmadi/Techtrends/blob/master/techtrends/templates/post.html)     | <code>► To be completed ...</code> |
+| [index.html](https://github.com/syarahmadi/Techtrends/blob/master/techtrends/templates/index.html)   | <code>► To be completed ...</code> |
+| [about.html](https://github.com/syarahmadi/Techtrends/blob/master/techtrends/templates/about.html)   | <code>► To be completed ...</code> |
+| [base.html](https://github.com/syarahmadi/Techtrends/blob/master/techtrends/templates/base.html)     | <code>► To be completed ...</code> |
+| [create.html](https://github.com/syarahmadi/Techtrends/blob/master/techtrends/templates/create.html) | <code>► To be completed ...</code> |
+| [404.html](https://github.com/syarahmadi/Techtrends/blob/master/techtrends/templates/404.html)       | <code>► To be completed ...</code> |
 
 </details>
 
