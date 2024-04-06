@@ -1,2 +1,0 @@
-# Techtrends_Udacity
-
