@@ -40,11 +40,6 @@
 
 <code>► To be completed ...</code>
 
----
-
-##  Features
-
-<code>► To be completed ...</code>
 
 ---
 
@@ -187,57 +182,6 @@
 
 </details>
 
----
-
-##  Getting Started
-
-**System Requirements:**
-
-* **YAML**: `version x.y.z`
-
-###  Installation
-
-<h4>From <code>source</code></h4>
-
-> 1. Clone the Techtrends repository:
->
-> ```console
-> $ git clone https://github.com/syarahmadi/Techtrends
-> ```
->
-> 2. Change to the project directory:
-> ```console
-> $ cd Techtrends
-> ```
->
-> 3. Install the dependencies:
-> ```console
-> $ > INSERT-INSTALL-COMMANDS
-> ```
-
-###  Usage
-
-<h4>From <code>source</code></h4>
-
-> Run Techtrends using the command below:
-> ```console
-> $ > INSERT-RUN-COMMANDS
-> ```
-
-###  Tests
-
-> Run the test suite using the command below:
-> ```console
-> $ > INSERT-TEST-COMMANDS
-> ```
-
----
-
-##  Project Roadmap
-
-- [X] `► INSERT-TASK-1`
-- [ ] `► INSERT-TASK-2`
-- [ ] `► ...`
 
 ---
 
